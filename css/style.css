@@ -2,20 +2,34 @@ div{
   border: 1px dashed black;
 }
 .maincard{
+  border: 1px dashed red;
+  margin: 1rem;
   display: grid;
-  justify-content: space-between;
-  grid-template-columns: repeat(auto-fill,minmax(min(100%,30rem),1fr));
+  grid-template-columns: repeat(auto-fill,minmax(min(100%,28rem),1fr));
+  grid-auto-rows: 22rem;
 }
 .tittle{
-  width: auto;
-  margin: 6rem;
+  
+  width: 90%;
+  margin: auto;
 }
 .stars{
-  width: auto%;
-  margin: 6rem;
+  width: 90%;
+  margin: auto;
+  
+}
+.cards{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(min(100%,15rem),1fr));
+
 }
 
 
+
+
+
+/*footer*/
 .attribution {
     font-size: 11px;
     text-align: center;
