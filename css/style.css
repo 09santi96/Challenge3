@@ -1,0 +1,25 @@
+div{
+  border: 1px dashed black;
+}
+.maincard{
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill,minmax(min(100%,30rem),1fr));
+}
+.tittle{
+  width: auto;
+  margin: 5rem;
+}
+.stars{
+  width: auto%;
+  margin: 6rem;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
