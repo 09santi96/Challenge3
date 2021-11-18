@@ -1,9 +1,13 @@
+section{
+  border: 1px dashed rgb(13, 219, 246);
+}
 div{
   border: 1px dashed black;
 }
-.maincard{
+.container1{
   border: 1px dashed red;
-  margin: auto;
+  margin: 1rem;
+  padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(min(100%,28rem),1fr));
   grid-auto-rows: 22rem;
@@ -30,11 +34,20 @@ p{
   margin-right: 30%;
 }
 /*-----------------------------------------------------------------*/
-.cards{
+.container2{
+  border: 1px dashed red;
   margin: 1rem;
+  padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(min(100%,15rem),1fr));
-  padding: 2rem;
+
+}
+.container_data{
+  margin: 0.5rem;
+  display: flex;
+}
+.container_text{
+  margin: 0.5rem;
 }
 
 
